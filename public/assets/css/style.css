@@ -1,0 +1,8 @@
+body {
+	background-color: #dbdbdb;
+	overflow-y: hidden;
+}
+.table > :not(:last-child) > :last-child > *, .dataTable-table > :not(:last-child) > :last-child > * {
+    border-bottom-color: none;
+}
+
